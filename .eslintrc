@@ -1,0 +1,31 @@
+{
+    "rules": {
+        "indent": [
+            2,
+            4
+        ],
+        "quotes": [
+            2,
+            "single"
+        ],
+        "linebreak-style": [
+            2,
+            "unix"
+        ],
+        "semi": [
+            2,
+            "always"
+        ],
+        "no-underscore-dangle": 0,
+        "max-len": [ 1, 160, 4 ]
+    },
+    "env": {
+        "es6": false,
+        "node": true,
+        "browser": true,
+        "mocha": true
+    },
+    "ecmaFeatures": {
+        "jsx": false
+    }
+}
